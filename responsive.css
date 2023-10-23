@@ -1,0 +1,246 @@
+@media screen and (max-width: 1700px) {
+    .logo_img {
+        width: 245px;
+    }
+    .btn {
+        padding: 11px;
+    }
+    .title_h {
+        font-size: 80px;
+    }
+    .title_but {
+        font-size: 20px;
+    }
+    .side_box {
+        width: 465px;
+    }
+    .blog_box {
+        height: 520px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .baner_icon {
+        width: 75px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .logo_img {
+        width: 215px;
+    }
+    .a {
+        font-size: 14px;
+    }
+    .btn {
+        padding: 9px;
+    }
+    .title_h {
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .title_p {
+        font-size: 20px;
+    }
+    .title_but {
+        font-size: 16px;
+    }
+    .side_right {
+        padding: 65px 0px;
+    }
+    .side_box {
+        width: 380px;
+    }
+    .blog_box {
+        height: 440px;
+    }
+    .blog_h{
+        font-size: 30px;
+    }
+    .box_inner{
+        border-radius: 80px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .date{
+    font-size: 10px;
+    }
+    .baner_icon {
+        width: 60px;
+    }
+    .footer_a{
+        font-size: 12px;
+    }
+    .footer_li2{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    .social_img{
+        margin: 2px 2px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header{
+        width: 90%;
+    }
+    .logo_img {
+        width: 170px;
+    }
+    .a {
+        font-size: 12px;
+    }
+    .btn {
+        padding: 7px;
+    }
+    .main{
+        width: 90%;
+    }
+    .title_h {
+        font-size: 55px;
+    }
+    .title_p {
+        font-size: 18px;
+    }
+    .title_but {
+        font-size: 14px;
+    }
+    .side_right {
+        padding: 60px 0px;
+    }
+    .side_box {
+        width: 330px;
+    }
+    .blog_box {
+        height: 390px;
+    }
+    .blog_h{
+        font-size: 28px;
+    }
+    .box_inner{
+        border-radius: 70px;
+    }
+    .text {
+        font-size: 13px;
+    }
+    .date{
+    font-size: 9px;
+    }
+    .baner_icon {
+        width: 50px;
+    }
+    .footer_a{
+        font-size: 11px;
+    }
+    .footer_li2{
+        width: 28px;
+        height: 28px;
+        border-radius: 14px;
+    }
+    .social_img{
+        margin: 1px 1px;
+    }
+}
+@media screen and (max-width: 999px) {
+    .header{
+        position: relative;
+        width: 95%;
+    }
+    .nav{
+        position: absolute;
+        top: 105%;
+        left: 0%;
+        width: 100%;
+        z-index: 111;
+        padding: 30px 0;
+        background-color: var(--navy);
+        display: none;
+    }
+    .toggle_nav{
+        position: absolute;
+        top: 105%;
+        left: 0%;
+        width: 100%;
+        z-index: 111;
+        padding: 30px 0;
+        background-color: var(--navy);
+        display: block;
+    }
+    .ul{
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+    }
+    .li{
+        border: 3px solid var(--blue);
+        width: 100%;
+        padding: 13px 20px;
+        border-radius: 28px;
+    }
+    .li:hover{
+        background-color: var(--blue);
+    }
+    .a{
+        font-size: 16px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        border: 3px solid var(--blue);
+        width: 100%;
+        padding: 13px 20px;
+        border-radius: 28px;
+        font-size: 16px;
+    }
+    .btn_en{
+        border: 2px solid #9DADF2;
+        font-size: 20px;
+        padding: 6px;
+        border-radius: 30px;
+    }
+    .main{
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .side_left{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0px;
+    }
+    .title{
+        text-align: center;
+    }
+    .side_right{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0px;
+    }
+    .baner{
+        transform: rotate(90deg);
+        top: -25px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer_left{
+        width: 100%;
+        height: auto;
+    }
+    .footer_ul{
+        flex-direction: column;
+    }
+    .footer_rigt{
+        width: 100%;
+    }
+    .footer_ul2{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+    }
+}
